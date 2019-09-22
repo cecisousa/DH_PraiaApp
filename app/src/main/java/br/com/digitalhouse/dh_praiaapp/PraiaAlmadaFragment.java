@@ -2,6 +2,7 @@ package br.com.digitalhouse.dh_praiaapp;
 
 
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,7 +32,8 @@ public class PraiaAlmadaFragment extends Fragment {
         btnCuriosidade.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "O acesso à Comunidade da Almada se dá no km 13 da rodovia Rio-Santos",Snackbar.LENGTH_LONG).show();
+                Snackbar.make(view, "O acesso à Comunidade da Almada se dá no km 13 da rodovia Rio-Santos",
+                        Snackbar.LENGTH_LONG).show();
             }
         });
 
